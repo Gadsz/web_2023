@@ -57,3 +57,9 @@ header nav p {
 margin-bottom: 10px;
 font-size: 4rem;
 }
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
