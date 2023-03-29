@@ -79,6 +79,11 @@ font-size: 4rem;
 }
 
 .pacotes .pacotes-image {
+    width: 450px;
+    height: 400px;
+    border-radius: 24px 0 0 0;
+}
+.pacotes .card-image{
     width: 250px;
     height: 200px;
     border-radius: 24px 0 0 0;
