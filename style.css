@@ -37,6 +37,7 @@ header nav {
 
 header nav ul {
     display: flex;
+    color: white;
 }
 
 header nav ul li {
@@ -51,6 +52,7 @@ header nav p {
     max-width: 400px;
     margin: 150px auto;
     text-align: center;
+    color: white;
 }
 
 .header-content h1 {
