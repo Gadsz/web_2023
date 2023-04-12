@@ -27,6 +27,7 @@ button {
 header {
     background: no-repeat center/cover url("UK.jpg");
     height: calc(100vh - 10px);
+    color:white
 }
 
 header nav {
@@ -100,7 +101,7 @@ font-size: 4rem;
     position: relative;
 }
 
-.pacotes .card-contet {
+.pacotes .card-content {
     padding: 0 15px;
 }
 
@@ -152,4 +153,54 @@ font-size: 4rem;
     font-size: 0.8rem;
     color: white;
     font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+}
+
+.servicos {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+
+}
+
+.servicos .card .svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+}
+
+.servicos .card svg:hover {
+    stroke: #ae8afe;
+    transform: scale(1.1);
+}
+
+.servicos.card p {
+    color: grey;
+    font-size: 8.rem;
+    text-align: center;
 }
