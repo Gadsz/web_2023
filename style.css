@@ -51,7 +51,7 @@ header nav p {
 
 .header-content {
     max-width: 400px;
-    margin: 150px auto;
+    margin: 230px auto;
     text-align: center;
     color: white;
 }
@@ -203,4 +203,9 @@ font-size: 4rem;
     color: grey;
     font-size: 8.rem;
     text-align: center;
+}
+
+.contatos {
+    height: 250px;
+    background-color: #ae8afe;
 }
