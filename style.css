@@ -208,4 +208,13 @@ font-size: 4rem;
 .contatos {
     height: 250px;
     background-color: #ae8afe;
+    text-align: center;
+}
+
+.contatos .mail svg {
+    color: black
+}
+
+.contatos .facebook svg {
+    color: black;
 }
