@@ -12,7 +12,7 @@ ul {
 
 a {
     text-decoration: none;
-    color:inherit;
+    color: black;
 }
 
 button {
@@ -25,9 +25,11 @@ button {
 }
 
 header {
-    background: no-repeat center/cover url("UK.jpg");
-    height: calc(100vh - 10px);
-    color:white
+    background: url("UK.jpg") no-repeat center/cover;
+    background-size: cover;
+    height: 90vh;
+    color:black;
+
 }
 
 header nav {
@@ -50,15 +52,15 @@ header nav p {
 }
 
 .header-content {
-    max-width: 400px;
-    margin: 230px auto;
+    max-width: 590px;
+    margin: 165px auto;
     text-align: center;
     color: white;
 }
 
 .header-content h1 {
 margin-bottom: 10px;
-font-size: 4rem;
+font-size: 3rem;
 }
 
 .pacotes .pacotes-title {
@@ -126,7 +128,7 @@ font-size: 4rem;
     margin-right: 10px;
 }
 
-.pacotes .card-content h1 {
+.pacotes .card-content h2 {
     font-size: 1rem;
 }
 
@@ -134,16 +136,16 @@ font-size: 4rem;
     position: absolute;
     right: 0;
     top: 15px;
-    background:  #f19b39;
+    background:  #FFF78A;
     border-radius: 8px 0 0 8px;
     padding: 5px 10px;
-
 }
+
 .pacotes .card .card-tag-bottom {
     position: absolute;
     left: 0;
     top: 160px;
-    background:  #1d61dd;
+    background:  #6E4FB3;   
     border-radius: 8px 0 0 8px;
     padding: 5px 10px;
 }
@@ -175,7 +177,6 @@ font-size: 4rem;
     max-width: 950px;
     justify-content: center;
     margin: auto;
-
 }
 
 .servicos .card {
@@ -185,7 +186,6 @@ font-size: 4rem;
     justify-content: center;
     align-items: center;
     margin: 0 20px;
-
 }
 
 .servicos .card .svg {
@@ -208,13 +208,18 @@ font-size: 4rem;
 .contatos {
     height: 250px;
     background-color: #ae8afe;
-    text-align: center;
+    text-align:left;
+    font-weight: bold;
 }
 
 .contatos .mail svg {
-    color: black
+    color: black;
 }
 
-.contatos .facebook svg {
+.contatos .github svg {
+    color:black;
+}
+
+.contatos .linkedin svg {
     color: black;
 }
