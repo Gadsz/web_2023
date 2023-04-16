@@ -225,3 +225,7 @@ header nav p {
 .contatos .linkedin svg {
     color: black;
 }
+
+nav a:hover {
+    color: white;
+}
